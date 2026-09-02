@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mar Jerome S. Bathan — Portfolio</title>
+<meta name="description" content="Portfolio of Mar Jerome S. Bathan, BSIT student majoring in Business Analytics at Batangas State University." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<header class="nav">
+  <a href="#top" class="nav__brand">RESUME</a>
+  <nav class="nav__links" id="navLinks">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main>
+
+  <section class="hero" id="top">
+    <div class="hero__text reveal">
+      <p class="eyebrow">Portfolio</p>
+      <h1><span>Bathan</span><br />Mar Jerome</h1>
+      <p class="hero__intro">A graduating Information Technology student from Batangas State University, focused on turning raw data into decisions people can act on.</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#contact">Get in touch</a>
+        <a class="btn btn--ghost" href="#projects">View my work</a>
+      </div>
+    </div>
+
+    <div class="hero__card reveal">
+      <div class="photo-frame" id="photoFrame">
+        <img
+          src="assets/img/profile.jpg"
+          alt="Photo of Mar Jerome S. Bathan"
+          id="profilePhoto"
+          onerror="this.style.display='none'; document.getElementById('photoFallback').style.display='flex';"
+        />
+        <div class="photo-fallback" id="photoFallback">MJB</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--about" id="about">
+    <p class="section__eyebrow reveal">01 &middot; About</p>
+    <h2 class="section__title reveal">A little about me</h2>
+    <p class="section__lead reveal">
+      Born on <span class="text-accent">September 30, 2004</span>, in Ibaan, Batangas, I'm an Information
+      Technology student majoring in <span class="text-accent">Business Analytics</span> at Batangas State
+      University, currently on my way to graduation. I'm interested in how data, systems, and clean
+      interfaces come together to help people make better decisions. I'm particularly drawn to
+      <span class="text-accent">front-end design and UI</span>, and sometimes enjoy working with databases
+      as well. Outside of coursework, I enjoy learning new tools and building small projects to practice
+      what I study.
+    </p>
+
+    <div class="about-facts reveal">
+      <div class="about-fact">
+        <span class="about-fact__icon">📍</span>
+        <span>Ibaan, Batangas</span>
+      </div>
+      <div class="about-fact">
+        <span class="about-fact__icon">🎓</span>
+        <span>Batangas State University</span>
+      </div>
+      <div class="about-fact">
+        <span class="about-fact__icon">💡</span>
+        <span>Front-end &amp; Data-driven Design</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="skills">
+    <p class="section__eyebrow reveal">02 &middot; Skills</p>
+    <h2 class="section__title reveal">What I work with</h2>
+
+    <div class="skills-group skills-group--accent reveal">
+      <h3>Special Skills</h3>
+      <div class="pill-row">
+        <span class="pill pill--accent">Web Design &amp; Development</span>
+        <span class="pill pill--accent">Problem-Solving &amp; Adaptability</span>
+        <span class="pill pill--accent">Content Management &amp; Web Technologies</span>
+        <span class="pill pill--accent">UX and UI Designer</span>
+        <span class="pill pill--accent">Knowledge in HTML, CSS, Figma</span>
+        <span class="pill pill--accent">Ability to Adapt Under Pressure</span>
+      </div>
+    </div>
+
+    <div class="skills-group reveal">
+      <h3>Data &amp; Analytics</h3>
+      <div class="pill-row">
+        <span class="pill">Excel</span>
+        <span class="pill">SQL</span>
+        <span class="pill">Power BI</span>
+        <span class="pill">Google Data Studio</span>
+      </div>
+    </div>
+
+    <div class="skills-group reveal">
+      <h3>Programming &amp; Web</h3>
+      <div class="pill-row">
+        <span class="pill">Java</span>
+        <span class="pill">Python</span>
+        <span class="pill">HTML / CSS / JavaScript</span>
+      </div>
+    </div>
+
+    <div class="skills-group reveal">
+      <h3>Tools &amp; Platforms</h3>
+      <div class="pill-row">
+        <span class="pill">MySQL</span>
+        <span class="pill">Git &amp; GitHub</span>
+        <span class="pill">VS Code</span>
+        <span class="pill">Figma</span>
+        <span class="pill">Canva</span>
+      </div>
+    </div>
+
+    <div class="skills-group reveal">
+      <h3>Soft Skills</h3>
+      <div class="pill-row">
+        <span class="pill">Communication</span>
+        <span class="pill">Teamwork</span>
+        <span class="pill">Problem Solving</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="education">
+    <p class="section__eyebrow reveal">03 &middot; Education</p>
+    <h2 class="section__title reveal">Where I've studied</h2>
+
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <span class="timeline-date">2022 &ndash; 2026</span>
+        <h3>BS Information Technology, Major in Business Analytics</h3>
+        <p>Batangas State University</p>
+      </div>
+      <div class="timeline-item reveal">
+        <span class="timeline-date">2017 &ndash; 2023</span>
+        <h3>Junior &amp; Senior High School</h3>
+        <p>Ibaan Saint James Academy Incorporated</p>
+      </div>
+      <div class="timeline-item reveal">
+        <span class="timeline-date">2011 &ndash; 2017</span>
+        <h3>Elementary</h3>
+        <p>Ibaan Saint James Academy Incorporated</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="experience">
+    <p class="section__eyebrow reveal">04 &middot; Experience</p>
+    <h2 class="section__title reveal">Where I've worked</h2>
+
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <span class="timeline-date">2018</span>
+        <h3>Assistant</h3>
+        <p>MDR Printing Services &mdash; Dilao Bldg, Poblacion, Ibaan, Batangas</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <p class="section__eyebrow reveal">05 &middot; Projects</p>
+    <h2 class="section__title reveal">Things I've built</h2>
+
+    <div class="project-grid">
+      <div class="project-card reveal">
+        <h3>Project Title One</h3>
+        <p>One or two lines describing the project, the problem it solved, and your role in it.</p>
+        <div class="pill-row">
+          <span class="pill pill--sm">SQL</span>
+          <span class="pill pill--sm">Power BI</span>
+        </div>
+      </div>
+      <div class="project-card reveal">
+        <h3>Project Title Two</h3>
+        <p>One or two lines describing the project, the problem it solved, and your role in it.</p>
+        <div class="pill-row">
+          <span class="pill pill--sm">Java</span>
+          <span class="pill pill--sm">MySQL</span>
+        </div>
+      </div>
+      <div class="project-card reveal">
+        <h3>Project Title Three</h3>
+        <p>One or two lines describing the project, the problem it solved, and your role in it.</p>
+        <div class="pill-row">
+          <span class="pill pill--sm">HTML/CSS</span>
+          <span class="pill pill--sm">JavaScript</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="contact" id="contact">
+  <div class="contact__inner reveal">
+    <p class="section__eyebrow section__eyebrow--light">06 &middot; Contact</p>
+    <h2>Let's work together.</h2>
+    <div class="contact__links">
+      <a href="mailto:23-04570@g.batstate-u.edu.ph">23-04570@g.batstate-u.edu.ph</a>
+      <a href="tel:+63211222111">+63 900 000 0000</a>
+      <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/mjbthn" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="contact__foot">&copy; <span id="year"></span> Mar Jerome S. Bathan. Built with HTML, CSS &amp; JavaScript.</p>
+  </div>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
